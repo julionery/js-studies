@@ -5,7 +5,7 @@ Meus estudos em JavaScript.
 ### :rocket: Tecnologias
 - JavaScript
 
-### :page_with_curl: Estudos
+### :page_with_curl: Anotações
 
 #### FILTER
 
@@ -56,6 +56,8 @@ const promise1 = new Promise((resolve, reject) => { throw 'Uh-oh!'; });
 promise1.catch((error) => { console.error(error); }); // expected output: Uh-oh!
 
 ```
+
+### [ECMAScript](https://github.com/tc39/proposals/blob/master/finished-proposals.md?utm_source=thenewstack&utm_medium=website)
 
 ## :memo: Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
