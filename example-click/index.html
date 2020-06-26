@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Teste</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1 id="titulo" 
+        onmouseover="console.log('passou o mouse');" 
+        onmouseout="console.log('tirou o mouse');"
+    >Seja bem vindo(a)</h1>
+
+    <input id="campo" type="text" name="usuario" />
+
+    <button onclick="clicou()">Clique aqui!</button>
+    <br/><br/>
+    <button onclick="this.innerHTML='Clicou'">Clique aqui!</button>
+    
+    <script src="scripts.js"></script>
+</body>
+
+</html>

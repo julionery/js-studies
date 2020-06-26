@@ -59,3 +59,32 @@ var nome = "Julio" // HOISTING - Enviada para o scopo geral da tela, podendo usa
 let nome = "Cesar" // Variável de escopo - funciona somente dentro do escopo no qual ela foi declarada.
 
 const lastName = "Nery" // Não permite alteração da estrutura da variável, portanto não pode alterar os valores.
+
+
+// TIPOS DE VARIAVEIS
+
+var nome = "Julio";  // String
+var idade = 90; // number
+var salvo = true; // boolean
+var cidade; //undefined
+
+var tipoNome = typeof nome;
+console.log(tipoNome);
+
+var tipoIdade = typeof idade;
+console.log(tipoIdade);
+
+var tipoSalvo = typeof salvo;
+console.log(tipoSalvo);
+
+
+// COMENTARIO DE UMA LINHA
+
+/**
+ * 
+ * COMENTARIO MULTLINHA
+ * 
+ */
+
+
+ 
