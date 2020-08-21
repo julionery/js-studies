@@ -4,6 +4,7 @@ Meus estudos em JavaScript.
 
 ### :rocket: Tecnologias
 - JavaScript
+- [ECMAScript](https://github.com/tc39/proposals/blob/master/finished-proposals.md?utm_source=thenewstack&utm_medium=website)
 
 ### :page_with_curl: Anotações
 
@@ -57,7 +58,27 @@ promise1.catch((error) => { console.error(error); }); // expected output: Uh-oh!
 
 ```
 
-### [ECMAScript](https://github.com/tc39/proposals/blob/master/finished-proposals.md?utm_source=thenewstack&utm_medium=website)
+### :chart_with_upwards_trend: Performance Web utilizando JavaScript
+
+#### Carregamento
+
+- Minificar arquivos (html, css, javascript)
+- Habilitar gzip
+- Lazy loading
+- Carregue tudo de forma assíncrona
+- Seletores CSS
+- Recursos que bloqueiam o carregamento da página como iframes, laços de repetição
+- Lide com imagens com carinho
+- Libere logo o carregamento da página e carregue o resto depois (AFT)
+
+#### Execução
+
+- Main Thread
+- SetTimeout
+- RequestAnimationFrame
+- RequestIdleCallback
+- Otimizações de CSS via GPU "thread"
+- Tome cuidado ao manipular o DOM (Reflow e Repaint)
 
 ## :memo: Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
